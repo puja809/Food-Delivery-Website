@@ -1,0 +1,31 @@
+$ git config --global user.name Puja
+
+$ git config --global user.email "pujachatterjee809@gmail.com"
+
+$ touch .gitignore
+
+$ git init
+
+$ git add .
+
+$ git commit -m "Initial commit"
+
+$  git status
+
+$ git remote add origin git@github.com:puja809/Food-Delivery-Website.git
+
+$ git push origin master
+
+$ ssh-keygen -t ed25519 -C "pujachatterjee809@gmail.com"
+
+$ cat /c/Users/KIIT/AppData/Roaming/SPB_16.6/.ssh/id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFkyoJFH9pZOK5UytPD830e6GcHPcjBPUscQ9V2yfzWC pujachatterjee809@gmail.com
+
+$ git push origin master
+
+Adding new changes to GIT
+$ git add .
+$ git commit -m "Adding new changes"
+$ git push origin master
+
+
